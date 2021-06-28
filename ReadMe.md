@@ -1,27 +1,10 @@
-# scenario2d
-Scene graph, svg importer, transform math for html5 canvas<br/>
+# vec2d
+OOP Vector2 as extracted from repcomm/scenario2d
 
-This lib has 0 dependencies.<br/>
-It is not all-encompassing, it is not a renderer.<br/>
-That task is left to implementation.
-
-## Implemented Classes
-- Resource : base class for other resources
-- TextResource : loads text based files into string
-- XmlResource : loads xml based files into Xml DOM trees, supports gradients (including inkscape, which does weird things that are accounted for)
-- SceneResource : loads svg based files into Object2D tree (Scene2d)
-
-- Object2d : base class, no display, has transform, children, parent, label, traverse children, overridable render
-- PathObject2d : a singular svg path ( d attribute in svg markup ), fill, stroke, supports gradient
-- Transform2d : scale, translate, rotation
-- Vec2 : essential maths in oop
-
-## Future additions
-- SVG frame animation
-- Animatable properties
+Split into a separate lib for the sake of supporting other projects in a way that reduced bloat.
 
 ## Using
-To install with npm run<br>`npm install @repcomm/scenario2d`<br><br>
+To install with npm run<br>`npm install @repcomm/vec2d`<br><br>
 This package comes with typescript definitions, and should work in both typescript and javascript.
 
 ## Example Usage
@@ -37,7 +20,7 @@ Which shows esmodule + typescript w/ babel + npm package integration<br>
 <br>
 
 To build you'll want to clone the repo<br>
-`git clone https://github.com/RepComm/scenario2d.git`
+`git clone https://github.com/RepComm/vec2d.git`
 
 Run `npm install` to get dependencies
 

@@ -1,7 +1,7 @@
 {
-  "name": "@repcomm/scenario2d",
+  "name": "@repcomm/vec2d",
   "version": "1.1.0",
-  "description": "2d graphics / svg / transform helper for html5 canvas",
+  "description": "2d vector",
   "main": "./lib/mod.js",
   "types": "./lib/mod.d.ts",
   "files": [
@@ -9,21 +9,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RepComm/scenario2d.git"
+    "url": "git+https://github.com/RepComm/vec2d.git"
   },
   "keywords": [
     "typescript",
     "esmodules",
     "babel",
-    "scene",
-    "svg"
+    "vector"
   ],
   "author": "Jonathan Crowder",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/RepComm/scenario2d/issues"
+    "url": "https://github.com/RepComm/vec2d/issues"
   },
-  "homepage": "https://github.com/RepComm/scenario2d#readme",
+  "homepage": "https://github.com/RepComm/vec2d#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
