@@ -1,7 +1,7 @@
 
 import {
   Vec2
-} from "./vec";
+} from "./vec.js";
 
 export {
   Vec2
